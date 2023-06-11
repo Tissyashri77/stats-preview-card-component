@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card{
+    width: 60%;
+    height: 40%;
+    background-color:hsl(244, 38%, 16%) ;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-desc{
+    width: 50%;
+    height: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:30px;
+}
+
+h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 28px;
+}
+
+span{
+    color: hsl(277, 64%, 61%);
+}
+p{
+    font-size: 15px;
+    color:  hsla(0, 0%, 100%, 0.75);
+    line-height: 25px;
+    margin-top: -25px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 65px;
+}
+
+.footer h2{
+      color: hsl(0, 0%, 100%) ;
+}
+
+.footer h5{
+    color:  hsla(0, 0%, 100%, 0.6) ;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.footer div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.card-img{
+    width: 50%;
+    height: 100%;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    background-color: hsl(277, 64%, 61%);
+}
+
+
+@media only screen and (max-width:600px){
+   
+    body{
+        height: auto;
+        padding: 50px 0;
+    }
+
+    .card{
+        width: 80%;
+        height: 100%;
+        flex-direction: column-reverse; 
+    }
+    .card-img{
+        width: 100%;
+        height: 40%;
+    }
+
+    .card-desc{
+        width: 100%;
+        height: auto;
+        justify-content: unset;
+        gap: 50px;
+    }
+
+    h1{
+        text-align: center;
+        font-size: 38px;
+    }
+
+    p{
+        text-align: center;
+        font-size: 18px;
+        word-spacing: 2px;
+        line-height: 30px;
+    }
+
+    .footer{
+        flex-direction: column;
+    }
+
+    .footer h2{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .footer h5{
+        font-size: 14px;
+    }
+}
