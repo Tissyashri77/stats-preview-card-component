@@ -57,6 +57,7 @@ p{
     justify-content: space-around;
     align-items: center;
     gap: 75px;
+    box-sizing: border-box;
 }
 
 .footer h2{
@@ -87,6 +88,24 @@ img{
     background-color: hsl(277, 64%, 61%);
 }
 
+
+
+
+
+
+@media only screen and (min-width:800px) and (max-width:1490px){
+    .card{
+        width: 60%;
+    }
+
+    .card-desc{
+        padding: 40px;
+    }
+
+    .footer{
+        gap: 70px;
+    }
+}
 
 @media only screen and (max-width:600px){
    
