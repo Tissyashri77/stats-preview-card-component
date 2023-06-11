@@ -15,8 +15,8 @@ body{
 }
 
 .card{
-    width: 60%;
-    height: 40%;
+    width: 50%;
+    height: 50%;
     background-color:hsl(244, 38%, 16%) ;
     border-radius: 10px;
     overflow: hidden;
@@ -28,24 +28,25 @@ body{
 .card-desc{
     width: 50%;
     height: 100%;
-    padding: 40px;
+    padding: 60px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    gap:30px;
+    gap:20px;
 }
 
 h1{
     color: hsl(0, 0%, 100%);
-    font-size: 28px;
+    font-size: 40px;
 }
 
 span{
     color: hsl(277, 64%, 61%);
 }
+
 p{
-    font-size: 15px;
+    font-size: 20px;
     color:  hsla(0, 0%, 100%, 0.75);
     line-height: 25px;
     margin-top: -25px;
@@ -55,7 +56,7 @@ p{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 65px;
+    gap: 85px;
 }
 
 .footer h2{
