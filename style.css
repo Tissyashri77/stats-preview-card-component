@@ -81,13 +81,14 @@ p{
 .card-img{
     width: 50%;
     height: 100%;
+    background-color: hsl(277, 64%, 61%);
 }
 
 img{
     width: 100%;
     height: 100%;
     object-fit: fill;
-    background-color: hsl(277, 64%, 61%);
+    mix-blend-mode: multiply;
 }
 
 
