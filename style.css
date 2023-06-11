@@ -38,7 +38,7 @@ body{
 
 h1{
     color: hsl(0, 0%, 100%);
-    font-size: 40px;
+    font-size: 38px;
 }
 
 span{
@@ -56,7 +56,7 @@ p{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 85px;
+    gap: 75px;
 }
 
 .footer h2{
