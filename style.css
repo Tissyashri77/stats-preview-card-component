@@ -16,7 +16,7 @@ body{
 }
 
 .card{
-    width: 50%;
+    width: 45%;
     height: 50%;
     background-color:hsl(244, 38%, 16%) ;
     border-radius: 10px;
@@ -39,7 +39,7 @@ body{
 
 h1{
     color: hsl(0, 0%, 100%);
-    font-size: 38px;
+    font-size: 24px;
 }
 
 span{
@@ -48,22 +48,23 @@ span{
 
 
 p{
-    font-size: 20px;
+    font-size: 14px;
     color:  hsla(0, 0%, 100%, 0.75);
     line-height: 25px;
-    margin-top: -25px;
+    margin-top: -5px;
 }
 
 .footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 75px;
+    gap: 30px;
     box-sizing: border-box;
 }
 
 .footer h2{
       color: hsl(0, 0%, 100%) ;
+       font-size: 20px;
 }
 
 .footer h5{
@@ -121,6 +122,7 @@ img{
         width: 80%;
         height: 100%;
         flex-direction: column-reverse; 
+
     }
     .card-img{
         width: 100%;
@@ -131,17 +133,18 @@ img{
         width: 100%;
         height: auto;
         justify-content: unset;
-        gap: 50px;
+        gap: 40px;
+        padding: 35px;
     }
 
     h1{
         text-align: center;
-        font-size: 38px;
+        font-size: 26px;
     }
 
     p{
         text-align: center;
-        font-size: 18px;
+        font-size: 16px;
         word-spacing: 2px;
         line-height: 30px;
     }
